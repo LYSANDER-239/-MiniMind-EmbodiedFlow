@@ -1,0 +1,95 @@
+{
+  "num_scenes": 2000,
+  "image_size": 256,
+  "sft_prompt_style": "strict_schema",
+  "num_objects_distribution": {
+    "2": 649,
+    "4": 673,
+    "3": 678
+  },
+  "num_goals_distribution": {
+    "2": 688,
+    "1": 656,
+    "3": 656
+  },
+  "target_color_distribution": {
+    "yellow": 537,
+    "red": 500,
+    "green": 500,
+    "purple": 463
+  },
+  "target_shape_distribution": {
+    "square": 658,
+    "triangle": 666,
+    "circle": 676
+  },
+  "goal_color_distribution": {
+    "yellow": 652,
+    "blue": 664,
+    "green": 684
+  },
+  "instruction_template_distribution": {
+    "6": 212,
+    "0": 213,
+    "5": 166,
+    "7": 210,
+    "1": 202,
+    "9": 239,
+    "8": 184,
+    "4": 180,
+    "3": 187,
+    "2": 207
+  },
+  "target_color_word_distribution": {
+    "黄": 280,
+    "红": 254,
+    "绿色": 256,
+    "绿": 244,
+    "红色": 246,
+    "紫色": 209,
+    "紫": 254,
+    "黄色": 257
+  },
+  "target_shape_word_distribution": {
+    "方块": 216,
+    "三角形": 329,
+    "正方形": 226,
+    "三角": 337,
+    "圆球": 238,
+    "圆形": 227,
+    "方形": 216,
+    "圆": 211
+  },
+  "goal_color_word_distribution": {
+    "黄": 310,
+    "蓝": 369,
+    "绿色": 355,
+    "蓝色": 295,
+    "黄色": 342,
+    "绿": 329
+  },
+  "action_word_distribution": {
+    "前往": 219,
+    "移动": 243,
+    "放进": 410,
+    "移动到": 237,
+    "送到": 223,
+    "到达": 236,
+    "放到": 236,
+    "移至": 196
+  },
+  "avoid_phrase_distribution": {
+    "不要碰到橙色障碍物": 395,
+    "<none>": 387,
+    "注意避开橙色障碍物": 448,
+    "并绕开橙色障碍物": 395,
+    "避开障碍物": 375
+  },
+  "max_obstacles": 2,
+  "parquet_path": "minimind_v_task_parser_sft.parquet",
+  "split_sizes": {
+    "train": 1600,
+    "val": 200,
+    "test": 200
+  }
+}
