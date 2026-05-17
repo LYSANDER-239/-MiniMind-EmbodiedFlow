@@ -1,0 +1,13 @@
+# MiniMind-V inference dependencies. Prefer the official
+# minimind-v-master/requirements.txt when reproducing the full project.
+torch
+torchvision
+transformers
+sentencepiece
+accelerate
+pillow
+numpy
+pandas
+pyarrow
+tqdm
+matplotlib

@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+tmp/
+tmp_python_site/__pycache__/
+
+outputs/*
+!outputs/.gitkeep
+
+# Do not commit external MiniMind-V repositories or large VLM checkpoints here.
+minimind-v-master/
+third_party/minimind-v/
+*task_parser_sft_vlm*.pth
+*sft_vlm*.pth
+
+# Keep the small Flow checkpoint used by this demo.
+!checkpoints/two_obstacle_flow_mlp.pt
+
+.env
+.venv/
+venv/
